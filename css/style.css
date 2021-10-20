@@ -2,9 +2,71 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: 'IM Fell English SC', serif;
+	overflow-x: hidden;
 }
 
 .big-banner{
-	background-image: url("../s12/images/img.jpeg");
+	background-image: url(../images/stars.jpg);
 	background-size: cover;
+	background-position: center
+}
+
+#pangalan{
+	font-size: 25px;
+}
+
+#aboutme{
+	font-size: 25px;
+	margin-bottom: 0px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.huling-footer{
+    display: flex;
+    justify-content: center;
+}
+
+#note1{
+    margin-right: 15px
+}
+#note2{
+    margin-right: 15px
+}
+#note3{
+    margin-right: 15px
+}
+#note4{
+    margin-right: 15px
 }
