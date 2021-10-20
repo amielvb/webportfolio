@@ -1,0 +1,10 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'IM Fell English SC', serif;
+}
+
+.big-banner{
+	background-image: url("../s12/images/img.jpeg");
+	background-size: cover;
+}
