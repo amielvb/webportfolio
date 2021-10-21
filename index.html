@@ -14,8 +14,8 @@
 	<body>
 
 		<!-- navbar -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		  <a class="navbar-brand text-white ml-2" href="#home">MOY#</a>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		  <a class="navbar-brand text-white ml-2" href="#">MOY#</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -41,13 +41,12 @@
 
 		<!-- jumbotron -->
 		
-		<div class="jumbotron big-banner b-0" id="home">
+		<div id="home" class="jumbotron big-banner mb-0" id="home">
 			<div class="container-fluid p-0">
 				<div class="row">
-					<div class="headline col-lg-12 text-center">
-							<h1 class="text-white">DREAM. DESIGN. CREATE.</h1>
-							<hr class="my-4">
-							<a class="btn btn-dark btn-lg" href="#contacts" role="button">Message Me:</a>
+					<div class="headline col-lg-12 col-12 text-center">
+							<h1 data-text="DREAM. DESIGN. CREATE." class="typing">DREAM. DESIGN. CREATE.</h1>
+							<a class="btn btn-dark btn-lg" href="#contacts" role="button">Click here for Inquiries:</a>
 					</div>
 				</div>
 			</div>
@@ -56,17 +55,18 @@
 			<!-- end of jumbotron -->
 
 			<!-- about me -->
-			<section class="bg-secondary p-0 m-0" id="aboutme">
-				<img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.6435-9/60352413_2461895623834376_1268149713312415744_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeH-gMoc5NdpkwV2yBIt-FaRkqxRRIU9llaSrFFEhT2WVktEqGdXBBcVxz0lEwVOaDLzsgoXG2RCSGEEVeYoznzb&_nc_ohc=5_7m_QlNHocAX-NCnxt&_nc_ht=scontent.fmnl17-3.fna&oh=82b6326a2341fe7502811196f975e2ad&oe=6196BAD9" class="h-25 w-25 rounded-circle d-block mx-auto p-4 img-fluid">
-				<div class="text-center mt-2">
-					<h1 class="border-bottom border-dark d-inline">Amiel Jose V. Buenaventura</h1>
-					<h3 class="text-center">Mechanical Engineer / Software Engineer</h3>
-				</div>
-
-				<p class="w-50 mx-auto d-flex justify-content-center" id="aboutme">
-					A Mechanical Engineer by profession. 
-					Pursuing a Software Engineering Career.
-				</p>
+			<section class="bg-secondary p-3 m-0 container-fluid" id="aboutme">
+				<div id="about" class="row aboutme justify-content-center">
+					<div class="col-lg-12 col-12 moypic">
+						<div class="justify-content-center d-flex moypic rounded img-fluid"><img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.6435-9/60352413_2461895623834376_1268149713312415744_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeH-gMoc5NdpkwV2yBIt-FaRkqxRRIU9llaSrFFEhT2WVktEqGdXBBcVxz0lEwVOaDLzsgoXG2RCSGEEVeYoznzb&_nc_ohc=5_7m_QlNHocAX-NCnxt&_nc_ht=scontent.fmnl17-3.fna&oh=82b6326a2341fe7502811196f975e2ad&oe=6196BAD9"></div>
+					</div>
+					<div class="col-lg-12 col-12">
+						<h1 class="text-center pangalan" >Amiel Jose V. Buenaventura</h1>
+						<h3 class="text-center">Mechanical Engineer / Software Engineer</h3>
+						<p class="text-center mb-0" id="aboutme">A Mechanical Engineer by profession.</p> 
+						<p class="text-center" id="aboutme">Pursuing a Software Engineering Career.</p>	
+					</div>
+				<div>
 
 			</section>
 			
@@ -74,21 +74,21 @@
 
 			<!-- projects -->
 
-			<main class="container-fluid bg-secondary p-2 border-top border-dark" id="projects">
+			<main id="projects" class="container-fluid bg-secondary p-2 border-top border-dark mb-0">
 				<h1 class="row justify-content-center mb-3">My Projects</h1>
 				<div class="row justify-content-around">	
 					<section class="col-lg-3 col-11 bg-dark w-25 p-4 text-white text-center rounded mb-3">
-						<img src="https://getbootstrap.com/docs/4.0/examples/screenshots/album.png" class="img-fluid rounded">
+						<img src="https://p4.wallpaperbetter.com/wallpaper/647/716/956/computer-construction-funny-humor-wallpaper-preview.jpg" class="img-fluid rounded">
 						<h3 class="mt-3">CAPSTONE 1</h3>
 						<p class="mt-3">Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Ipsum quo incidunt reprehenderit, molestias soluta, dolores saepe odit provident pariatur minus maxime, dignissimos, obcaecati quaerat libero! Voluptate consequatur officiis facilis ducimus?.</p>
 					</section>
 					<section class="col-lg-3 col-11 bg-dark w-25 p-4 text-white text-center rounded mb-3">
-						<img src="https://getbootstrap.com/docs/4.0/examples/screenshots/jumbotron.png" class="img-fluid rounded">
+						<img src="https://p4.wallpaperbetter.com/wallpaper/647/716/956/computer-construction-funny-humor-wallpaper-preview.jpg" class="img-fluid rounded">
 						<h3 class="mt-3">CAPSTONE 2</h3>
 						<p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cupiditate eos, perferendis dolorum minus iusto cum dignissimos dolor distinctio eum voluptatibus aspernatur itaque modi animi, veritatis saepe voluptates, nam consequuntur.</p>
 					</section>
-					<section class="col-lg-3 col-11 bg-dark w-25 p-4  text-white text-center rounded mb-3">
-						<img src="https://getbootstrap.com/docs/4.0/examples/screenshots/carousel.png " class="img-fluid rounded">
+					<section class="col-lg-3 col-11 bg-dark w-25 p-4  text-white text-center rounded mb-3 mt-0">
+						<img src="https://p4.wallpaperbetter.com/wallpaper/647/716/956/computer-construction-funny-humor-wallpaper-preview.jpg" class="img-fluid rounded">
 						<h3 class="mt-3">CAPSTONE 3</h3>
 						<p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsum eaque tenetur eligendi sed debitis vel fuga nostrum alias, nemo asperiores pariatur ex aperiam nihil impedit suscipit veniam quos iste..</p>
 					</section>
@@ -153,6 +153,8 @@
 						<a href="https://twitter.com/theothermoy" target="_blank" class="fa fa-twitter"></a>
 						<a href="https://www.linkedin.com/in/amiel-buenaventura-aa079913b/" target="_blank" class="fa fa-linkedin"></a>
 						<a href="https://www.instagram.com/amieljoseeeee/" target="_blank" class="fa fa-instagram"></a>
+						<p class="text-white mt-3">&#9742; : +63917-116-0527</p>
+						<p class="text-white">amielvb@gmail.com</p>
 					</div>
 					<div class="col-lg-3 col-12 w-25 p-4">
 						<iframe class="h-100 w-100 rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.4267264118952!2d121.01666158089992!3d14.55874604216226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9059b0e133b%3A0x428e471713464530!2sAlveo%20Financial%20Tower!5e0!3m2!1sen!2sph!4v1634747652846!5m2!1sen!2sph" allowfullscreen="" loading="lazy"></iframe>
@@ -163,12 +165,8 @@
 			<!-- end of contacts -->
 
 			<!-- footer -->
-			<div class="huling-footer">
-				<p id="note1">Terms of Service</p>
-				<p id="note2"> | </p>
-				<p id="note3">Privacy Policy</p>
-				<p id="note4"> | </p>
-				<p id="note5"> &copy; Momoy All Rights reserved</p>
+			<div class="huling-footer bg-secondary">
+				<p id="note5" class="mt-2"> &copy; Momoy All Rights reserved</p>
 			</div>
 			<!-- end of footer -->
 
